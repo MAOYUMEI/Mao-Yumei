@@ -7,7 +7,7 @@ Created on Wed Oct  6 21:33:37 2021
 
 import socket
 s=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
-s.connect(('127.0.0.1',9999))
+s.connect(('10.128.65.235',9999))
 print('I am connecting the sever!')
 for data in['aBch','f服务d','h7Tq','.']:
    s.send(data.encode('utf-8'))
